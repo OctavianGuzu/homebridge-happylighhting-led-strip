@@ -1,0 +1,40 @@
+{
+    "name": "homebridge-happylighhting-led-strip",
+    "version": "1.0.0",
+    "description": "Homebridge plugin for the HappyLighhting (Triones) LED strip.",
+    "main": "index.js",
+    "files":
+    [
+        "index.js",
+        "rgbConversion.js"
+    ],
+    "scripts":
+    {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "git+https://github.com/OctavianGuzu/homebridge-happylighhting-led-strip.git"
+    },
+    "keywords":
+    [
+        "homebridge-plugin"
+    ],
+    "author": "Octavian Guzu",
+    "license": "GPL-3.0",
+    "bugs":
+    {
+        "url": "https://github.com/OctavianGuzu/homebridge-happylighhting-led-strip/issues"
+    },
+    "homepage": "https://github.com/OctavianGuzu/homebridge-happylighhting-led-strip",
+    "engines":
+    {
+        "node": ">=0.12.0",
+        "homebridge": ">=0.2.0"
+    },
+    "dependencies":
+    {
+        "@abandonware/noble": "^1.9.2-5"
+    }
+}
